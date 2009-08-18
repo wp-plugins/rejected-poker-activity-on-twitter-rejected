@@ -29,5 +29,8 @@ None yet.
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixed default stylesheet option.
+
 = 1.0 =
 * Initial version.
