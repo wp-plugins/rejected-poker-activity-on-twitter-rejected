@@ -79,7 +79,7 @@
           </select></p>
       
         <p>
-          <input type="radio" name="<?php echo $this->get_field_name('stylesheet') ?>" value="default" <?php if($instance['stylesheet'] == 'default') echo 'checked="true"'; ?> /> Default styling<br />
+          <input type="radio" name="<?php echo $this->get_field_name('stylesheet') ?>" value="standard" <?php if($instance['stylesheet'] == 'standard') echo 'checked="true"'; ?> /> Standard styling<br />
           <input type="radio" name="<?php echo $this->get_field_name('stylesheet') ?>" value="custom" <?php if($instance['stylesheet'] == 'custom') echo 'checked="true"'; ?> /> Custom styling
         </p>
         
