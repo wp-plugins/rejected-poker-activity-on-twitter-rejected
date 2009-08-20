@@ -1,7 +1,7 @@
 === Poker Activity on Twitter ===
 Contributors: webmsol
 Donate link: http://onlinemarketing.eu
-Tags: poker, twitter
+Tags: poker, twitter, gambling
 Requires at least: 2.8
 Tested up to: 2.8
 Stable tag: trunk
