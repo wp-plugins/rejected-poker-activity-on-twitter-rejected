@@ -100,5 +100,20 @@
 	}
   
 	add_action('widgets_init', 'PokerActivityOnTwitterInit');
+	
+	// Let us know you activated or deactivated our plugin. Thanks!
+
+  function activate_poker_activity_on_twitter() {
+    update_option('poker_activity_on_twitter_installed', '1');
+    file_get_contents('http://winchester.onlinemarketing.eu/installations/create?installation[uri]=' . urlencode($_SERVER['SERVER_NAME']) . '&installation[activity]=activate&installation[plugin_or_widget_name]=' . urlencode('Poker Activity on Twitter'));
+  }
+  
+  function deactivate_poker_activity_on_twitter() {
+    update_option('poker_activity_on_twitter_installed', '0');
+    file_get_contents('http://winchester.onlinemarketing.eu/installations/create?installation[uri]=' . urlencode($_SERVER['SERVER_NAME']) . '&installation[activity]=deactivate&installation[plugin_or_widget_name]=' . urlencode('Poker Activity on Twitter'));
+  }
+
+  register_activation_hook(__FILE__, 'activate_poker_activity_on_twitter');
+  register_deactivation_hook(__FILE__, 'deactivate_poker_activity_on_twitter');
 
 ?>
