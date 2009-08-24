@@ -30,8 +30,7 @@ None yet.
 == Changelog ==
 
 = 1.0.2 =
-
-Plugin lets author know when you've activated or deactivated the plugin. No sensitive information is sent. See source code to verify this.
+* Plugin lets author know when you've activated or deactivated the plugin. No sensitive information is sent. See source code to verify this.
 
 = 1.0.1 =
 * Fixed default stylesheet option.
