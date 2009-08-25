@@ -25,7 +25,8 @@ None yet. Be the first to ask! :)
 
 == Screenshots ==
 
-None yet.
+1. Easy administration!
+2. The plugin in action!
 
 == Changelog ==
 
